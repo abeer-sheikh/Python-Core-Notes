@@ -1,0 +1,5 @@
+sentence = input("Enter your sentence :  ")
+print(len(sentence))
+print(sentence.upper())
+print("python" in sentence)
+print(sentence.count("a"))

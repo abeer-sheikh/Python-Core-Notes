@@ -1,0 +1,10 @@
+name = input("Enter your name : ")
+subject = input("Enter your subject : ")
+marks = int(input("Enter your marks : "))
+
+f = open("report.txt" , "w")
+f.write("--- Student Report ---\n")
+f.write("Name : " + name + "\n")
+f.write("Subject : " + subject + "\n")
+f.write("Marks : " + str(marks) + "\n")
+f.close()
